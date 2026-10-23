@@ -59,3 +59,28 @@ footer p { opacity: 0.8; }
 
 /* Testimonial Blockquote Style */
 .testimonial { background: #fff; padding: 20px; border-left: 5px solid var(--lemon-green); margin-bottom: 15px; font-style: italic; box-shadow: 0 2px 10px rgba(0,0,0,0.05); border-radius: 0 10px 10px 0; }
+/* Mobile Responsive Fix */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 15px;
+        gap: 15px;
+    }
+    .logo img {
+        height: 50px; 
+    }
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 15px;
+    }
+    nav a {
+        font-size: 13px;
+    }
+    .whatsapp-btn {
+        padding: 10px 15px;
+        font-size: 14px;
+        bottom: 15px;
+        right: 15px;
+    }
+}
